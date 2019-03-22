@@ -1,0 +1,40 @@
+{
+    "name": "phaser-ts-webpack",
+    "version": "1.0.0",
+    "description": "pha游戏框架的typescript开发环境",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server --config webpack/webpack.dev.js",
+        "build": "webpack --config webpack/webpack.build.js"
+    },
+    "author": "YBingo",
+    "keywords": [
+        "Phaser 3",
+        "Phaser3 - example",
+        "TypeScript",
+        "webpack",
+        "H5 Game",
+        "开发环境"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^11.11.4",
+        "clean-webpack-plugin": "^1.0.1",
+        "copy-webpack-plugin": "^5.0.0",
+        "expose-loader": "^0.7.5",
+        "html-webpack-plugin": "^3.2.0",
+        "imagemin-webpack-plugin": "^2.4.2",
+        "raw-loader": "^1.0.0",
+        "ts-loader": "^5.3.3",
+        "typescript": "^3.3.4000",
+        "webpack": "^4.29.6",
+        "webpack-cli": "^3.2.3",
+        "webpack-dev-server": "^3.2.1",
+        "webpack-merge": "^4.2.1",
+        "webpack-obfuscator": "^0.18.0",
+        "webpack-simple-progress-plugin": "0.0.4"
+    },
+    "dependencies": {
+        "phaser": "^3.16.2"
+    }
+}
