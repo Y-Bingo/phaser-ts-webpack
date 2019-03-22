@@ -11,9 +11,7 @@ class BootScene extends Phaser.Scene
     {
         console.log( "开始创建游戏场景..." );
         this.add.image( this.game.canvas.width / 2, this.game.canvas.height / 2, "logo" );
-        if ( true ) {
-            console.log( "sds" );
-        }
+        this.game.scene.start( "MainScene" );
     }
 }
 

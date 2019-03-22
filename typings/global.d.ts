@@ -1,3 +1,5 @@
+import { type } from "os";
+
 // declare let DEBUG: boolean;
 // declare let DEFAULT_GAME_WIDTH: number;
 // declare let DEFAULT_GAME_HEIGHT: number;
